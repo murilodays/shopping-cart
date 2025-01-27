@@ -1,0 +1,38 @@
+.container-cesta {
+    justify-content: center;
+    margin: 30px;
+}
+
+.itens-carrinho {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.imagem-preview img {
+    width: 150px;
+    height: 130px;
+}
+
+.imagem-preview {
+    padding: 10px;
+    border-right: 1px solid #000;
+}
+
+.item-descricao { 
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin-top: 15px;
+}

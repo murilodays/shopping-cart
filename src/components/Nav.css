@@ -1,0 +1,49 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+#pageTitle {
+    text-decoration: none;
+    color: #fff;
+}
+
+#containerLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLink {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.navLink a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navLink p {
+    margin: 0;
+}
+
+.navLink:hover {
+    transform: scale(1.05);
+    color: #000;
+    transition: .1s; 
+}
+
+#nav h2 {
+    margin: 0;
+}
+
+#nav h2:hover {
+    transform: scale(1.05);
+    transition: .1s;
+}
